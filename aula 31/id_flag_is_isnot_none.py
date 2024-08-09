@@ -15,6 +15,8 @@ id = identidade
 condicao = False
 
 if condicao:
-    print('Façã algo')
+   
+    print('Faça algo')
 else:
+    
     print('Não faça algo')
