@@ -3,4 +3,11 @@ for i in range(10):
         print('i pe 2, pulando...')
         continue
     
+    if i == 8:
+        print('i pe 8, seu else não executara')
+        break
     
+    for j in range(1, 3):
+        print(i, j)
+else:
+    print('For completo com sucesso!')
