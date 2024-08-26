@@ -1,4 +1,7 @@
 '''tipo de tuplas - Uma lista imutável'''
 
-_, _, nome1, *resto= ['Maria', 'Helena', 'Luiz']
-print(nome1, _)
+nomes = ['Maria', 'Helena', 'Luiz']
+nomes = tuple(nomes)
+nomes = list(nomes)
+print(nomes[-1])
+print(nomes)
